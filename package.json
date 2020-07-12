@@ -9,7 +9,7 @@
     "build:dev": "webpack --watch",
     "dev-server": "webpack-dev-server",
     "build:prod": "webpack -p --env production",
-    "test": "jest --watch --config=jest.config.json",
+    "test": "jest --config=jest.config.json",
     "start": "node server/server.js",
     "heroku-postbuild": "yarn run build:prod"
   },
@@ -31,6 +31,7 @@
     "moment": "^2.27.0",
     "node-sass": "^4.14.1",
     "normalize.css": "^8.0.1",
+    "numeral": "^2.0.6",
     "raf": "3.3.2",
     "react": "^16.13.1",
     "react-addons-shallow-compare": "^15.6.2",
@@ -45,13 +46,13 @@
     "uuid": "3.1.0",
     "validator": "^13.1.1",
     "webpack": "^4.43.0",
-    "yarn": "^1.22.4",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "yarn": "^1.22.4"
   },
   "devDependencies": {
     "chalk": "^4.1.0",
-    "enzyme-to-json": "3.0.1",
     "enzyme": "3.0.0",
+    "enzyme-to-json": "3.0.1",
     "jest": "20.0.4",
     "live-server": "^1.2.1",
     "react-test-renderer": "16.0.0",
